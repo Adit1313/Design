@@ -3,7 +3,7 @@
   text-align: center;
   width: 100%;
   position: fixed;
-  background-color: #002aff;
+  background-color: #00a2ff;
   z-index: 1;
   height: 8rem;
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
@@ -349,7 +349,7 @@ article img {
   font-size: 3.5rem;
   font-weight: 500;
   display: block;
-  color: #002aff;
+  color: #00a2ff;
   text-decoration: none;
 }
 
@@ -411,7 +411,7 @@ article img {
   font-size: 3.5rem;
   font-weight: 500;
   display: block;
-  color: #002aff;
+  color: #00a2ff;
   text-decoration: none;
 }
 
@@ -476,7 +476,7 @@ article img {
   font-size: 3.5rem;
   font-weight: 300;
   display: block;
-  color: #002aff;
+  color: #00a2ff;
   text-decoration: none;
 }
 
@@ -504,7 +504,7 @@ article img {
   height: auto;
   font-family: Lato;
   text-align: center;
-  background-color: #002aff;
+  background-color: #00a2ff;
   padding-bottom: 5%;
 }
 
