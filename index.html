@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<!-- saved from url=(0033)http://arjunsawhney.io/scope.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>Visualize</title>
+    <title>Visualise</title>
     <link rel="stylesheet" href="css/scope.css">
     <link rel="stylesheet" type="text/css" href="http://arjunsawhney.io/css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
@@ -13,19 +12,19 @@
     <div class="nav">
         <div class="container">
             <ul>
-                <li style="float:left"><a href="http://arjunsawhney.io/scope.html#" target="_blank">MISSION</a></li>
-                <li style="float:left"><a href="http://arjunsawhney.io/scope.html#" target="_blank">PRODUCT</a></li>
-                <a href="#"><img src="logoipad.png"></a>
-                <li style="float:right"><a href="http://arjunsawhney.io/scope.html#">TEAM</a></li>
-                <li style="float:right"><a href="http://arjunsawhney.io/scope.html#">CONTACT US</a></li>
+                <li style="float:left"><a href="#mission" target="_blank">MISSION</a></li>
+                <li style="float:left"><a href="#product" target="_blank">PRODUCT</a></li>
+                <a href="#"><img src="logoipad.png" id="logo"></a>
+                <li style="float:right"><a href="#team">TEAM</a></li>
+                <li style="float:right"><a href="#contact">CONTACT US</a></li>
             </ul>
         </div>
     </div>
     <ul class="navigation">
-        <li><a href="http://arjunsawhney.io/scope.html#">MISSION</a></li>
-        <li><a href="http://arjunsawhney.io/scope.html#">PRODUCT</a></li>
-        <li><a href="http://arjunsawhney.io/scope.html#">TEAM</a></li>
-        <li><a href="http://arjunsawhney.io/scope.html#">CONTACT US</a></li>
+        <li><a href="#mission">MISSION</a></li>
+        <li><a href="#product">PRODUCT</a></li>
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#contact">CONTACT US</a></li>
     </ul>
     <input type="checkbox" id="nav-trigger" class="nav-trigger ">
     <label for="nav-trigger"><span class="hidden_nav"></span></label>
@@ -45,11 +44,11 @@
         <div class="carousel">
             <div class="container">
                 <article id="slider">
-                    <input checked="" type="radio" name="slider" id="slide1">
+<!--                     <input checked="" type="radio" name="slider" id="slide1">
                     <input type="radio" name="slider" id="slide2">
                     <input type="radio" name="slider" id="slide3">
                     <input type="radio" name="slider" id="slide4">
-                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide5"> -->
                     <div id="slides">
                         <div id="overflow">
                             <div class="inner">
@@ -72,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="controls">
+<!--                         <div id="controls">
                             <label for="slide1"></label>
                             <label for="slide2"></label>
                             <label for="slide3"></label>
@@ -85,11 +84,11 @@
                             <label for="slide3"></label>
                             <label for="slide4"></label>
                             <label for="slide5"></label>
-                        </div>
+                        </div> -->
                     </article>
                 </div>
             </div>
-            <div class="reality">
+            <div class="reality" id="mission">
                 <div class="container">
                     <h1>OUR MISSION</h1>
                     <hr style="width: 15%;">
@@ -97,7 +96,14 @@
                     <p style="margin-bottom: 7.5rem;">Technology has been the frontier of human development and growth. That is why we aim to make the learning more enriching my providing Augemented Reality experiences to every classroom.</p>
                 </div>
             </div>
-            <div class="simulated">
+            <div class="simulated" id="mission">
+                <div class="container">
+                    <h1>THE IDEA</h1>
+                    <hr style="width: 15%;">
+                    <img src="demo.gif" id="gif">
+                </div>
+            </div>
+            <div class="reality" id="product">
                 <div class="container">
                     <h1>OUR PRODUCT</h1>
                     <hr style="width: 15%;">
@@ -112,63 +118,66 @@ Simulated_reality#Arguments" target="_blank" class="Button" style="background-co
                     <center>
                 </center></center></div>
             </div>
-            <div class="stats">
+            <div class="simulated" id="videostuff">
                 <div class="container">
                     <div class="content">
                         <hr style="width: 75%; margin-bottom: -5.5rem;">
-                        <h1>dunno what to put here</h1>
+                        <h1>Watch a demo!</h1>
+                        <video class="container" height="400px" width="600px" controls>
+                            <source src="demo.mp4" type="video/mp4">
+                        </video>
                         <hr style="width: 75%;">
                     </div>
                 </div>
             </div>
-            <div class="support">
+            <div class="support" id="team">
                 <div class="container">
                     <h1>OUR TEAM</h1>
                     <hr style="color: red; width: 15%;">
                     <div class="col-md-3" style="display: block;">
                         <h1>Advay Mansingka</h1>
-                        <p>Scope seeks top notch developers to unlock the applications of simulated reality</p>
+                        <p>Interested in both, STEM and International Relations. His unique skillsets help him in every situation.</p>
                         <a href="http://arjunsawhney.io/scope.html#" target="_blank" class="Button">Read more...</a>
                     </div>
                     <div class="col-md-3" style="display: block;">
                         <h1>Ansh Nanda</h1>
-                        <p>Scope thrives in a community of thought leaders, debaters, and innovators.</p>
+                        <p>Cutting edge technologies are his passion. His programming background helps him all the time.</p>
                         <a href="http://arjunsawhney.io/scope.html#" target="_blank" class="Button">Read more...</a>
                     </div>
                     <div class="col-md-3" style="display: block;">
                         <h1>Arjun Dev Singh</h1>
-                        <p>Scope's RND Department is teeming with new projects aimed to widen perspective.</p>
+                        <p>From Photoshop to web development. He is a master of all trades.</p>
                         <a href="http://arjunsawhney.io/scope.html#" target="_blank" class="Button">Read more...</a>
                     </div>
                     <div class="col-md-3" style="display: block;">
                         <h1>Vanaj Moorthy</h1>
-                        <p>Our work is not possible without the attainment of funds to fuel our workforce.</p>
+                        <p>Enjoys music and web development. With a keen eye of art, his design sense is impeccable.</p>
                         <a href="http://arjunsawhney.io/scope.html#" target="_blank" class="Button">Read more...</a>
                     </div>
                 </div>
             </div>
             <script>
-            $(function() {
-            $('.stats .col-md-3').fadeOut();
-            $(window).scroll(function(){
-            var bottom_of_object = $('.stats').position().top + $('.stats').outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            bottom_of_window = bottom_of_window + 200;
-            if( bottom_of_window > bottom_of_object ){
-            $('.stats .col-md-3:nth-of-type(1)').fadeIn(750);
-            $('.stats .col-md-3:nth-of-type(2)').fadeIn(750);
-            $('.stats .col-md-3:nth-of-type(3)').fadeIn(750);
-            $('.stats .col-md-3:nth-of-type(4)').fadeIn(750);
-            $('.stats .col-md-3:nth-of-type(5)').fadeIn(2000);
-            $('.stats .col-md-3:nth-of-type(6)').fadeIn(2000);
-            $('.stats .col-md-3:nth-of-type(7)').fadeIn(2000);
-            $('.stats .col-md-3:nth-of-type(8)').fadeIn(2000);
-            }
-            });
-            if ($(window).width() < 995) {
-            $('.stats .col-md-3').fadeIn();
-            }
-            });
+            // $(function() {
+            // $('.stats .col-md-3').fadeOut();
+            // $(window).scroll(function(){
+            // var bottom_of_object = $('.stats').position().top + $('.stats').outerHeight();
+            // var bottom_of_window = $(window).scrollTop() + $(window).height();
+            // bottom_of_window = bottom_of_window + 200;
+            // if( bottom_of_window > bottom_of_object ){
+            // $('.stats .col-md-3:nth-of-type(1)').fadeIn(750);
+            // $('.stats .col-md-3:nth-of-type(2)').fadeIn(750);
+            // $('.stats .col-md-3:nth-of-type(3)').fadeIn(750);
+            // $('.stats .col-md-3:nth-of-type(4)').fadeIn(750);
+            // $('.stats .col-md-3:nth-of-type(5)').fadeIn(2000);
+            // $('.stats .col-md-3:nth-of-type(6)').fadeIn(2000);
+            // $('.stats .col-md-3:nth-of-type(7)').fadeIn(2000);
+            // $('.stats .col-md-3:nth-of-type(8)').fadeIn(2000);
+            // }
+            // });
+            // if ($(window).width() < 995) {
+            // $('.stats .col-md-3').fadeIn();
+            // }
+            // });
             $(function() {
             $('.support .col-md-3').fadeOut();
             $(window).scroll(function(){
@@ -209,10 +218,10 @@ Simulated_reality#Arguments" target="_blank" class="Button" style="background-co
                     <div class="links">
                         <div class="container">
                             <h1>LINKS</h1>
-                            <a href="http://arjunsawhney.io/scope.html#" target="_blank">Home</a><br>
-                            <a href="http://arjunsawhney.io/scope.html#" target="_blank">About Us</a><br>
-                            <a href="http://arjunsawhney.io/scope.html#" target="_blank">Services</a><br>
-                            <a href="http://arjunsawhney.io/scope.html#" target="_blank">Read More</a><br>
+                            <a href="index.html" target="_blank">Home</a><br>
+                            <a href="#mission" target="_blank">About Us</a><br>
+                            <a href="#product" target="_blank">Services</a><br>
+                            <a href="#team" target="_blank">Team</a><br>
                             <hr style="color: white; width: 100%; margin-top: 5rem;">
                         </div>
                     </div>
@@ -226,6 +235,12 @@ Simulated_reality#Arguments" target="_blank" class="Button" style="background-co
                 </div>
             </div>
         </div>
+        <footer>
+        D
+            <p>
+            Made proudly by the Shri Ram School, Moulsari.
+            </p>
+        </footer>
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/TweenLite.min.js"></script>
         <script src="js/EasePack.min.js"></script>
